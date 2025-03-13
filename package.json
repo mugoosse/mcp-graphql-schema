@@ -1,0 +1,26 @@
+{
+  "name": "mcp-graphql-schema",
+  "version": "0.0.1",
+  "type": "module",
+  "sideEffects": false,
+  "main": "index.mjs",
+  "description": "Model Context Protocol server for GraphQL schemas",
+  "keywords": [
+    "mcp",
+    "graphql",
+    "graphql schema",
+    "model context protocol"
+  ],
+  "scripts": {
+    "start": "node index.mjs",
+    "help": "node index.mjs --help"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "graphql": "^16.10.0",
+    "zod": "^3.24.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
