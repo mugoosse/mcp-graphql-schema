@@ -1,9 +1,12 @@
 {
   "name": "mcp-graphql-schema",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "sideEffects": false,
   "main": "index.mjs",
+  "bin": {
+    "mcp-graphql-schema": "index.mjs"
+  },
   "description": "Model Context Protocol server for GraphQL schemas",
   "keywords": [
     "mcp",
